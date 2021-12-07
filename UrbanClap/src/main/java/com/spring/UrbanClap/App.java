@@ -14,7 +14,7 @@ public class App {
 		String query="insert into users(user_id,user_name,user_password,phone) values(?,?,?,?)";
 		
 	// fire query
-		int result = template.update(query,123,"Ashu","1234","23456789");
+		int result = template.update(query,12347,"Hritik","123","23456789");
 		System.out.println("User's record inserted successfully"+result);
 	}
 
